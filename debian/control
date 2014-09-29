@@ -1,0 +1,12 @@
+Source: ros-hydro-map-merger
+Section: misc
+Priority: extra
+Maintainer: Peter Kohout <peter_kohout@gmx.at>
+Build-Depends: debhelper (>= 9.0.0), ros-hydro-adhoc-communication, ros-hydro-catkin, ros-hydro-message-generation, ros-hydro-nav-msgs, ros-hydro-roscpp
+Homepage: http://wiki.ros.org/map_merger/
+Standards-Version: 3.9.2
+
+Package: ros-hydro-map-merger
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-hydro-adhoc-communication, ros-hydro-message-generation, ros-hydro-message-runtime, ros-hydro-nav-msgs, ros-hydro-roscpp
+Description: Map merger is a package to merge several maps on the fly to one global map, if possible
