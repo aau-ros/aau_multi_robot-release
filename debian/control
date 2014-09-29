@@ -1,0 +1,12 @@
+Source: ros-hydro-map-merger
+Section: misc
+Priority: extra
+Maintainer: student <student@todo.todo>
+Build-Depends: debhelper (>= 9.0.0), ros-hydro-adhoc-communication, ros-hydro-catkin, ros-hydro-message-generation, ros-hydro-nav-msgs, ros-hydro-roscpp
+Homepage: 
+Standards-Version: 3.9.2
+
+Package: ros-hydro-map-merger
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-hydro-adhoc-communication, ros-hydro-message-generation, ros-hydro-message-runtime, ros-hydro-nav-msgs, ros-hydro-roscpp
+Description: The map_merger package
