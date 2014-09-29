@@ -1,3 +1,26 @@
+## adhoc_communication (hydro) - 0.1.1-0
+
+The packages in the `adhoc_communication` repository were released into the `hydro` distro by running `/usr/bin/bloom-release adhoc_communication --track hydro --rosdistro hydro --new-track` on `Mon, 29 Sep 2014 08:03:30 -0000`
+
+These packages were released:
+- `adhoc_communication`
+- `map_merger`
+
+Version of package(s) in repository `adhoc_communication`:
+- upstream repository: https://github.com/aau-ros/aau_multi_robot.git
+- release repository: unknown
+- rosdistro version: `null`
+- old version: `null`
+- new version: `0.1.1-0`
+
+Versions of tools used:
+- bloom version: `0.5.11`
+- catkin_pkg version: `0.2.2`
+- rosdep version: `0.10.27`
+- rosdistro version: `0.3.5`
+- vcstools version: `0.1.35`
+
+
 aau_multi_robot-release
 =======================
 
