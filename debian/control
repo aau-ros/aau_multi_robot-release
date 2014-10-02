@@ -1,0 +1,12 @@
+Source: ros-hydro-explorer
+Section: misc
+Priority: extra
+Maintainer: dneuhold <dneuhold@todo.todo>
+Build-Depends: debhelper (>= 9.0.0), ros-hydro-adhoc-communication, ros-hydro-catkin, ros-hydro-costmap-2d, ros-hydro-map-merger, ros-hydro-message-generation, ros-hydro-move-base, ros-hydro-nav-core, ros-hydro-navfn, ros-hydro-roscpp, ros-hydro-rospy, ros-hydro-sound-play, ros-hydro-std-msgs, ros-hydro-voxel-grid
+Homepage: http://wiki.ros.org/explorer
+Standards-Version: 3.9.2
+
+Package: ros-hydro-explorer
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-hydro-adhoc-communication, ros-hydro-costmap-2d, ros-hydro-map-merger, ros-hydro-message-runtime, ros-hydro-move-base, ros-hydro-nav-core, ros-hydro-navfn, ros-hydro-roscpp, ros-hydro-rospy, ros-hydro-sound-play, ros-hydro-std-msgs, ros-hydro-voxel-grid
+Description: The explorer package
