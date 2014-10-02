@@ -20,4 +20,4 @@ tracks:
     ros_distro: hydro
     vcs_type: git
     vcs_uri: https://github.com/aau-ros/aau_multi_robot.git
-    version: 0.1.2
+    version: 0.1.3
