@@ -1,3 +1,27 @@
+## aau_multi_robot (hydro) - 0.1.3-4
+
+The packages in the `aau_multi_robot` repository were released into the `hydro` distro by running `/usr/bin/bloom-release aau_multi_robot --track hydro --rosdistro hydro` on `Thu, 08 Jan 2015 09:20:10 -0000`
+
+These packages were released:
+- `adhoc_communication`
+- `explorer`
+- `map_merger`
+
+Version of package(s) in repository `aau_multi_robot`:
+- upstream repository: https://github.com/aau-ros/aau_multi_robot.git
+- release repository: https://github.com/aau-ros/aau_multi_robot-release.git
+- rosdistro version: `0.1.3-3`
+- old version: `0.1.3-3`
+- new version: `0.1.3-4`
+
+Versions of tools used:
+- bloom version: `0.5.16`
+- catkin_pkg version: `0.2.6`
+- rosdep version: `0.11.0`
+- rosdistro version: `0.4.0`
+- vcstools version: `0.1.36`
+
+
 ## aau_multi_robot (hydro) - 0.1.3-3
 
 The packages in the `aau_multi_robot` repository were released into the `hydro` distro by running `/usr/bin/bloom-release aau_multi_robot --track hydro --rosdistro hydro` on `Wed, 10 Dec 2014 23:27:28 -0000`
