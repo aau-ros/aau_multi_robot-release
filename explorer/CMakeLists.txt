@@ -93,6 +93,7 @@ catkin_package(
 ## Build ##
 ###########
 
+set(CMAKE_CXX_FLAGS "-std=c++0x ${CMAKE_CXX_FLAGS}")
 
 FIND_LIBRARY( #TCMALLOC_LIBRARY tcmalloc
 	/usr/local/lib
@@ -136,6 +137,7 @@ target_link_libraries(explorer exploration_planner hungarian munkres ${catkin_LI
 add_dependencies(explorer adhoc_communication_gencpp explorer_generate_messages_cpp)
 
 ## Specify libraries to link a library or executable target against
+target_link_libraries(explorer exploration_planner hungarian munkres ${catkin_LIBRARIES})
 #target_link_libraries(explorer profiler)
 #target_link_libraries(explorer tcmalloc)
 

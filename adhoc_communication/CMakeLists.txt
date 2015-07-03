@@ -50,11 +50,13 @@ find_package(catkin REQUIRED COMPONENTS
    FILES
    #AuctionStatus.msg
    ExpAuction.msg
+   ExpAuctionElement.msg
    ExpFrontierElement.msg
    MmControl.msg
    MmMapUpdate.msg
    MmRobotPosition.msg
    ExpCluster.msg
+   ExpClusterElement.msg
    ExpFrontier.msg
    MmListOfPoints.msg
    MmPoint.msg
@@ -163,12 +165,12 @@ add_dependencies(adhoc_communication adhoc_communication_gencpp)
 
 
 
-#add_custom_command(
-#TARGET adhoc_communication 
-#COMMAND echo "Setting UID bit and changing owner to root of adhoc_communication node requiring root privileges using sudo."
+add_custom_command(
+TARGET adhoc_communication 
+COMMAND echo "Do not forget to set UID bit and changing owner to root of adhoc_communication node. The node requires root privileges using sudo to have access to the Linux RAW_SOCKET to send data."
 #COMMAND sudo chown root ../../devel/lib/adhoc_communication/adhoc_communication
 #COMMAND sudo chmod +s ../../devel/lib/adhoc_communication/adhoc_communication
-#)
+)
 
 #############
 ## Install ##
@@ -199,11 +201,11 @@ add_dependencies(adhoc_communication adhoc_communication_gencpp)
 # )
 
 ## Mark other files for installation (e.g. launch and bag files, etc.)
- install(FILES
-   simulation_5.launch
- #  simulation_2.launch
-   DESTINATION ${CATKIN_PACKAGE_SHARE_DESTINATION}
- )
+# install(FILES
+#   simulation_5.launch
+#   simulation_2.launch
+#   DESTINATION ${CATKIN_PACKAGE_SHARE_DESTINATION}
+# )
 
 
 
