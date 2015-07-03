@@ -1,0 +1,12 @@
+Source: ros-indigo-explorer
+Section: misc
+Priority: extra
+Maintainer: Daniel Neuhold <dneuhold@edu.aau.at>
+Build-Depends: debhelper (>= 9.0.0), ros-indigo-adhoc-communication, ros-indigo-catkin, ros-indigo-costmap-2d, ros-indigo-map-merger, ros-indigo-message-generation, ros-indigo-move-base, ros-indigo-nav-core, ros-indigo-navfn, ros-indigo-roscpp, ros-indigo-rospy, ros-indigo-sound-play, ros-indigo-std-msgs, ros-indigo-voxel-grid
+Homepage: http://wiki.ros.org/explorer
+Standards-Version: 3.9.2
+
+Package: ros-indigo-explorer
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-indigo-adhoc-communication, ros-indigo-costmap-2d, ros-indigo-map-merger, ros-indigo-message-runtime, ros-indigo-move-base, ros-indigo-nav-core, ros-indigo-navfn, ros-indigo-roscpp, ros-indigo-rospy, ros-indigo-sound-play, ros-indigo-std-msgs, ros-indigo-voxel-grid
+Description: The explorer package utilizes frontier based exploration for multi-robot systems. Beside frontier detection, coordinated and uncoordinated exploration strategies are available to select goal points. Coordinated exploration enhances robot distribution and reduces redundancy in exploration reducing exploration time.
