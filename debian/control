@@ -1,0 +1,12 @@
+Source: ros-indigo-map-merger
+Section: misc
+Priority: extra
+Maintainer: Peter Kohout <peter_kohout@gmx.at>
+Build-Depends: debhelper (>= 9.0.0), libopencv-dev, ros-indigo-adhoc-communication, ros-indigo-catkin, ros-indigo-message-generation, ros-indigo-nav-msgs, ros-indigo-roscpp
+Homepage: http://wiki.ros.org/map_merger/
+Standards-Version: 3.9.2
+
+Package: ros-indigo-map-merger
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, libopencv-dev, ros-indigo-adhoc-communication, ros-indigo-message-generation, ros-indigo-message-runtime, ros-indigo-nav-msgs, ros-indigo-roscpp
+Description: Map merger is a package to merge several maps on the fly to one global map, if possible
