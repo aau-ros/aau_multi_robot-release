@@ -1,0 +1,12 @@
+Source: ros-indigo-adhoc-communication
+Section: misc
+Priority: extra
+Maintainer: Guenther Cwioro <g.cwioro@gmx.net>
+Build-Depends: debhelper (>= 9.0.0), ros-indigo-catkin, ros-indigo-ecl-time, ros-indigo-geometry-msgs, ros-indigo-message-generation, ros-indigo-nav-msgs, ros-indigo-roscpp, ros-indigo-std-msgs
+Homepage: http://wiki.ros.org/adhoc_communication
+Standards-Version: 3.9.2
+
+Package: ros-indigo-adhoc-communication
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-indigo-ecl-time, ros-indigo-geometry-msgs, ros-indigo-message-runtime, ros-indigo-nav-msgs, ros-indigo-roscpp, ros-indigo-std-msgs
+Description: The adhoc_communication package allows to exchange data over an ad-hoc network setup by robots running the corresponding node. The package allows you to exchange data over serveral roscores by wrapping transmitting the data to the destination and publishing the data on a predefined topic at the destination host. Routing is accomplished using the hostname of the robots.
