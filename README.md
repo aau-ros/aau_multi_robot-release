@@ -1,3 +1,27 @@
+## aau_multi_robot (indigo) - 0.1.8-0
+
+The packages in the `aau_multi_robot` repository were released into the `indigo` distro by running `/usr/bin/bloom-release aau_multi_robot --track indigo --rosdistro indigo --new-track` on `Fri, 03 Jul 2015 11:35:26 -0000`
+
+These packages were released:
+- `adhoc_communication`
+- `explorer`
+- `map_merger`
+
+Version of package(s) in repository `aau_multi_robot`:
+- upstream repository: https://github.com/aau-ros/aau_multi_robot.git
+- release repository: unknown
+- rosdistro version: `null`
+- old version: `null`
+- new version: `0.1.8-0`
+
+Versions of tools used:
+- bloom version: `0.5.20`
+- catkin_pkg version: `0.2.8`
+- rosdep version: `0.11.2`
+- rosdistro version: `0.4.2`
+- vcstools version: `0.1.36`
+
+
 ## aau_multi_robot (hydro) - 0.1.3-5
 
 The packages in the `aau_multi_robot` repository were released into the `hydro` distro by running `/usr/bin/bloom-release aau_multi_robot --track hydro --rosdistro hydro` on `Wed, 04 Feb 2015 07:43:58 -0000`
